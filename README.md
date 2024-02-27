@@ -1,15 +1,12 @@
 # Página de Login: Projeto de Liberação de vistoria
 
-## Acesse: https://vistorialoginpage.netlify.app
+## Acesse: https://inspectionlogin.netlify.app
 
 
 ## 📖Descrição
 
 Este projeto foi elaborado com ReactJs e Tailwind. Página de Login está pronta, mas o projeto continua em andamento
 
-## 👾Status
-
-Project in progress
 
 ## 💻 Tecnologias utilizadas
 
