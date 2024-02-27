@@ -1,7 +1,8 @@
+import Link from "next/link";
 export default function RecoverPassword (){
     return(
         <div className="mt-2">
-         <a href="/forgot-password" class="underline text-black hover:text-orange-500 text-xs">Recuperar senha</a>
+         <Link href="/recover" class="underline text-black hover:text-orange-400 text-xs">Recuperar senha</Link>
         </div>
     )
 }
