@@ -5,7 +5,7 @@ import RecoverPass from "./recover/page";
 
 export default function Home() {
   return (
-    <main className="">
+    <main className="items-center justify-center flex">
       <Login/>
     </main>
   )
