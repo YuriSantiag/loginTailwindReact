@@ -5,7 +5,7 @@ import RecoverPass from "./recover/page";
 
 export default function Home() {
   return (
-    <main>
+    <main className="">
       <Login/>
     </main>
   )
