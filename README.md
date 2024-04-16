@@ -3,11 +3,6 @@
 ## Access: https://inspectionlogin.netlify.app
 
 
-## Description
-
-Este projeto foi elaborado com ReactJs e Tailwind. Página de Login está pronta, mas o projeto continua em andamento
-
-
 ## Technologies used
 
 <div align="center">
