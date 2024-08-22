@@ -7,7 +7,7 @@ export default function EnterButton({ handleLogin }) {
         onClick={handleLogin}
         className="shadow-md inline-block px-6 py-2 rounded-xl bg-orange-500 text-white hover:bg-orange-700"
       >
-        Entrar
+       Sign in
       </button>
     </div>
   );

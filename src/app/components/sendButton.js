@@ -8,7 +8,7 @@ export default function SendButton({ handleSend }) {
         onClick={handleSend}
         className="shadow-md inline-block px-4 py-2 rounded-xl bg-orange-500 text-white hover:bg-orange-700"
       >
-        Enviar
+        Send
       </button>
     </div>
   );

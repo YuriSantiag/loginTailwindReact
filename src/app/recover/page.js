@@ -17,14 +17,14 @@ export default function RecoverPass() {
       let valid = true;
   
       if (!user) {
-        setUserErrorMessage("Digite um usuário válido");
+        setUserErrorMessage("Enter a valid user");
         valid = false;
       } else {
         setUserErrorMessage("");
       }
   
       if (!email) {
-        setEmailErrorMessage("Digite um email válido");
+        setEmailErrorMessage("Enter a valid email address");
         valid = false;
       } else {
         setEmailErrorMessage("");
@@ -34,7 +34,7 @@ export default function RecoverPass() {
         const sendSuccessful = false; // Altere para a lógica de envio
   
         if (!sendSuccessful) {
-          setGeneralErrorMessage("Não foi possível enviar.");
+          setGeneralErrorMessage("Could not send.");
         } else {
           setGeneralErrorMessage("");
           // Outras ações após envio bem-sucedido

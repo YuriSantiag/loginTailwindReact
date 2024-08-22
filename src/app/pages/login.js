@@ -18,14 +18,14 @@ export default function Login() {
     let valid = true;
 
     if (!login) {
-      setLoginErrorMessage("Digite um login válido");
+      setLoginErrorMessage("Enter a valid login");
       valid = false;
     } else {
       setLoginErrorMessage("");
     }
 
     if (!password) {
-      setPasswordErrorMessage("Digite uma senha válida");
+      setPasswordErrorMessage("Enter a valid password");
       valid = false;
     } else {
       setPasswordErrorMessage("");
@@ -35,7 +35,7 @@ export default function Login() {
       const loginSuccessful = false; 
 
       if (!loginSuccessful) {
-        setGeneralErrorMessage("Não foi possível entrar.");
+        setGeneralErrorMessage("It wasn't possible to get in.");
       } else {
         setGeneralErrorMessage("");
       
@@ -59,7 +59,7 @@ export default function Login() {
         {generalErrorMessage && (
           <p className="text-red-500 text-sm mt-4">{generalErrorMessage}</p>
         )}
-        <div className="grid grid-cols-2 gap-2 mt-4">
+        <div className="grid text-center grid-cols-1 mt-4">
           <RecoverPassword />
           <RegisterButton />
         </div>
