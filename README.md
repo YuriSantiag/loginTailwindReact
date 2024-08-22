@@ -1,7 +1,7 @@
 # Login Page
 
 ## Status
-This project is focusing on tailwind's mobile first, but the project is not in its final design<br/> https://inspectionlogin.netlify.app
+This project is focusing on tailwind's mobile-first. <br/> https://inspectionlogin.netlify.app
 
 
 ## Technologies
